@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/flag" >
+	<ImageView
+			android:src="@drawable/logo"
+			android:layout_width="match_parent"
+			android:layout_height="60dp"
+			android:id="@+id/themeSong" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1" >
+		<ImageView
+			android:src="@drawable/Vivian"
+			android:layout_width="70dp"
+			android:layout_height="70dp"
+			android:layout_marginTop="7dp"
+			android:id="@+id/vivianView" />
+		<ImageView
+			android:src="@drawable/PissOff"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/vivianQuote1" />
+		<ImageView
+			android:src="@drawable/Smash"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/vivianQuote2" />
+		<ImageView
+			android:src="@drawable/Video"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/vivianQuote3" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2" >
+		<ImageView
+			android:src="@drawable/Neil"
+			android:layout_width="70dp"
+			android:layout_height="70dp"
+			android:layout_marginTop="7dp"
+			android:id="@+id/neilView" />
+		<ImageView
+			android:src="@drawable/Hassle"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/neilQuote1" />
+		<ImageView
+			android:src="@drawable/Pigs"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/neilQuote2" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout3" >
+		<ImageView
+			android:src="@drawable/Rick"
+			android:layout_width="70dp"
+			android:layout_height="70dp"
+			android:layout_marginTop="7dp"
+			android:id="@+id/rickView" />
+		<ImageView
+			android:src="@drawable/Acupuncture"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/rickQuote1" />
+		<ImageView
+			android:src="@drawable/WhoLikes"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/rickQuote2" />
+		<ImageView
+			android:src="@drawable/CockADoodle"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/rickQuote3" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout4" >
+		<ImageView
+			android:src="@drawable/Mike"
+			android:layout_width="70dp"
+			android:layout_height="70dp"
+			android:layout_marginTop="7dp"
+			android:id="@+id/mikeView" />
+		<ImageView
+			android:src="@drawable/BoiledEgg"
+			android:layout_gravity="center"
+			android:layout_width="60dp"
+			android:layout_height="30dp"
+			android:id="@+id/mikeQuote1" />
+	</LinearLayout>
+
+</LinearLayout>
